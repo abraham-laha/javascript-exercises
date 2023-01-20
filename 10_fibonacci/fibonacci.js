@@ -4,7 +4,7 @@ const fibonacci = function(num) {
     for(let i = 3; i <= num; i++){
         sum.push(sum[i-2]+sum[i-3]);
     }
-    return sum[num];
+    return sum[num-1];
 };
 
 // Do not edit below this line
